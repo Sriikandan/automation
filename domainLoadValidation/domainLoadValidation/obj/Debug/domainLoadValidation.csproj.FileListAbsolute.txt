@@ -1,0 +1,14 @@
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\domainLoadValidation.dll.config
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\domainLoadValidation.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\domainLoadValidation.pdb
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\nunit.framework.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\TechTalk.SpecFlow.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.Support.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\nunit.framework.xml
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.xml
+C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.Support.xml
+C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.csprojResolveAssemblyReference.cache
+C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.dll
+C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.pdb
