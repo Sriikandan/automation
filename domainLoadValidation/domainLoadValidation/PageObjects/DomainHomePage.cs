@@ -47,7 +47,18 @@ namespace domainLoadValidation.PageObjects
                 case "newhome":
                     driver.FindElement(By.LinkText("New Homes")).Click();
                     break;
-
+                case "commercial":
+                    driver.FindElement(By.LinkText("Commercial")).Click();
+                    break;
+                case "news":
+                    driver.FindElement(By.LinkText("News")).Click();
+                    break;
+                case "advice":
+                    driver.FindElement(By.LinkText("Advice")).Click();
+                    break;
+                case "agents":
+                    driver.FindElement(By.LinkText("Agents")).Click();
+                    break;
             }
 
         }
@@ -103,6 +114,48 @@ namespace domainLoadValidation.PageObjects
                        
                     }
                     break;
+
+                case "commercial":
+                    wait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("homepage-tag-line")));
+                    menucheckitem = driver.FindElement(By.ClassName("homepage-tag-line")).Text;
+                    Console.WriteLine("the menuslected" + menuSelected + "It is displayed" + menucheckitem);
+                    if (menucheckitem != "Find commercial real estate for sale and for lease")
+                    {
+                        Assert.Fail("The page " + menuSelected + " is not loaded");
+
+                    }
+                    break;
+                case "news":
+                    wait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("article-list")));
+                    menucheckitem = driver.FindElement(By.ClassName("article-list")).Text;
+                    Console.WriteLine("the menuslected" + menuSelected + "It is displayed" + menucheckitem);
+                    if (!menucheckitem.Contains("LATEST REAL ESTATE & PROPERTY MARKET NEWS"))
+                    {
+                        Assert.Fail("The page " + menuSelected + " is not loaded");
+
+                    }
+                    break;
+                case "advice":
+                    wait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("advice-category-title")));
+                    menucheckitem = driver.FindElement(By.ClassName("advice-category-title")).Text;
+                    Console.WriteLine("the menuslected" + menuSelected + "It is displayed" + menucheckitem);
+                    if (menucheckitem != "Advice")
+                    {
+                        Assert.Fail("The page " + menuSelected + " is not loaded");
+
+                    }
+                    break;
+                case "agents":
+                    wait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("find-an-agent__radio-inputs-label")));
+                    menucheckitem = driver.FindElement(By.ClassName("find-an-agent__radio-inputs-label")).Text;
+                    Console.WriteLine("the menuslected" + menuSelected + "It is displayed" + menucheckitem);
+                    if (menucheckitem != "AGENCY")
+                    {
+                        Assert.Fail("The page " + menuSelected + " is not loaded");
+
+                    }
+                    break;
+
 
             }
 

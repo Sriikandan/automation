@@ -21,3 +21,19 @@ Then the 'sold' page is loaded
 Scenario: Domain Pages loaded for the 'New Home' menu
 When I click the 'newhome' menu
 Then the 'newhome' page is loaded
+
+Scenario: Domain Pages loaded for the 'Commercial' menu
+When I click the 'commercial' menu
+Then the 'commercial' page is loaded
+
+Scenario: Domain Pages loaded for the 'News' menu
+When I click the 'news' menu
+Then the 'news' page is loaded
+
+Scenario: Domain Pages loaded for the 'Advice' menu
+When I click the 'advice' menu
+Then the 'advice' page is loaded
+
+Scenario: Domain Pages loaded for the 'Agents' menu
+When I click the 'agents' menu
+Then the 'agents' page is loaded

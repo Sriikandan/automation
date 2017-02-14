@@ -139,6 +139,74 @@ testRunner.Then("the \'newhome\' page is loaded", ((string)(null)), ((TechTalk.S
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Domain Pages loaded for the \'Commercial\' menu")]
+        public virtual void DomainPagesLoadedForTheCommercialMenu()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Domain Pages loaded for the \'Commercial\' menu", ((string[])(null)));
+#line 25
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 26
+testRunner.When("I click the \'commercial\' menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 27
+testRunner.Then("the \'commercial\' page is loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Domain Pages loaded for the \'News\' menu")]
+        public virtual void DomainPagesLoadedForTheNewsMenu()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Domain Pages loaded for the \'News\' menu", ((string[])(null)));
+#line 29
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 30
+testRunner.When("I click the \'news\' menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 31
+testRunner.Then("the \'news\' page is loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Domain Pages loaded for the \'Advice\' menu")]
+        public virtual void DomainPagesLoadedForTheAdviceMenu()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Domain Pages loaded for the \'Advice\' menu", ((string[])(null)));
+#line 33
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 34
+testRunner.When("I click the \'advice\' menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 35
+testRunner.Then("the \'advice\' page is loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Domain Pages loaded for the \'Agents\' menu")]
+        public virtual void DomainPagesLoadedForTheAgentsMenu()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Domain Pages loaded for the \'Agents\' menu", ((string[])(null)));
+#line 37
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 38
+testRunner.When("I click the \'agents\' menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 39
+testRunner.Then("the \'agents\' page is loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore

@@ -9,6 +9,6 @@ C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.Suppo
 C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\nunit.framework.xml
 C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.xml
 C:\workspace\domainLoadValidation\domainLoadValidation\bin\Debug\WebDriver.Support.xml
-C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.csprojResolveAssemblyReference.cache
 C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.dll
 C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.pdb
+C:\workspace\domainLoadValidation\domainLoadValidation\obj\Debug\domainLoadValidation.csprojResolveAssemblyReference.cache
